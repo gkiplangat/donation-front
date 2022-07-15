@@ -34,3 +34,8 @@ $('a[href*="#"]')
       }
     }
   });
+$(document).ready(function () {
+  $(".nav-btn i").click(function () {
+    $(".nav-links").toggleClass("mobile-menu");
+  });
+});

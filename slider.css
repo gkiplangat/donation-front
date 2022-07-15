@@ -155,7 +155,12 @@ body {
         width: 100%;
         background-color: #cfecf7;
         left: 0px;
+        clip-path: circle(0% at 100% 0%);
+        transition: all .8s;
     }
+         .mobile-menu {
+             clip-path: circle(112% at 100% 0%);
+         }
 
     .nav>.nav-links>ul li a {
         display: block;
