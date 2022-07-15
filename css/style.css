@@ -1,0 +1,62 @@
+.navbar .header-top .contact-info>ul>li{
+    color: #ffa500;
+    display: inline-block;
+    margin-right: 18px;
+    padding-right: 18px;
+    border-right: 1px solid #ffa500;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 500;
+}
+.contact-info a{
+    color: peru;
+}
+.contact-info a:hover {
+    color: #ffa500;
+}
+body {
+    font-family: 'Muli', sans-serif;
+    height: 5000px;
+}
+
+/* ==========================
+   [01]. Navbar
+========================== */
+.navbar {
+    background:white!important;
+    padding: 25px 0;
+}
+
+.navbar .nav-item {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #7d8792;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu {
+    margin-top: 25px;
+
+}
+
+.navbar .navbar-nav .dropdown span {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu a {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu a:hover {
+    background: #e0a80d;
+}
