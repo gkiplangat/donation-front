@@ -52,8 +52,8 @@ body {
 .nav>.nav-links>ul {
     list-style: none;
     position: relative;
-    padding: 0;
-    margin-top: 5px;
+    padding: 5px;
+    margin-top: 30px;
 
 }
 
@@ -116,7 +116,6 @@ body {
     }
 
     .nav>.nav-links {
-        position: absolute;
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
