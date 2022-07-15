@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+.nav {
+    height: 120px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
+    position: relative;
+}
+
+.nav>.nav-links {
+    font-size: 18px;
+    display: inline;
+    float: right;
+
+}
+
+.nav>.nav-btn {
+    display: none;
+    /*Hide toggle button for desktop*/
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+.nav>.nav-links>ul li a {
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    display: block;
+    padding: 0 8px;
+    text-decoration: none;
+
+}
+
+.nav>.nav-links>ul {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin-top: 5px;
+
+}
+
+.nav>.nav-links>ul li {
+    display: inline-block;
+    transition: transform .2s;
+
+
+
+}
+
+.nav>.nav-links>ul li:hover {
+    color: #000080;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.nav .nav-links ul a.icon {
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.nav .nav-links ul a i {
+    padding: 7px;
+    margin-left: 5px;
+    background-color: #cfecf7;
+    border-radius: 50px;
+
+}
+
+@media (max-width:750px) {
+    
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        padding: 13px;
+        display: inline-block;
+        width:55px;
+
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: #000;
+        margin: 10px;
+    }
+
+    .nav>.nav-btn>label>span {
+        height: 10px;
+        border-top: 3px solid #eee;
+        display: block;
+        width: 30px;
+
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        display: block;
+        width: 100%;
+        background-color: #cfecf7;
+        left: 0px;
+    }
+
+    .nav>.nav-links>ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    /*   */
+
+
+
+    .nav>.nav-links>ul li {
+        padding: 0;
+        background-color: #cfecf7;
+        display: block;
+        margin-bottom: 20px;
+
+    }
+
+    .nav>.nav-links>ul li a {
+        margin-left: 40%;
+    }
+
+    .nav .nav-links ul a.icon {
+        margin-left: 33%;
+    }
+
+    /*   */
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 120px);
+        overflow-y: auto;
+    }
+}
