@@ -1,83 +1,36 @@
 /* ----------------------------------
-
+Author:G-Tech Solutions
+Tel:0702499324
 Name: main.css
 Version: 1.0
 
 -------------------------------------
 
 Table of contents
-        
     01. Navbar
     02. Slider
     03. About us
-    04. Services
+    04. Our Pillars
     05. Some Facts
-    06. Portfolio
-    07. Testimonials
-    08. Blog
-    09. Contact
-    10. Footer
+    06. Footer
 */
 
 body {
     font-family: 'Muli', sans-serif;
-     
+    margin: 0;
+    padding: 0;
+
 
 }
 
 /* ==========================
    [01]. Navbar
 ========================== */
-.navbar.header-top .contact-info>ul>li {
-    color: #F28C28;
-    display: inline-block;
-    margin-right: 18px;
-    padding-right: 18px;
-    border-right: 1px solid #687693;
-    font-size: 14px;
-    line-height: 1;
-    font-weight: 500;
-}
-
-.navbar .header-top .contact-info>ul>li:last-child {
-    margin-right: 0px;
-}
-
-.navbar .header-top .contact-info>ul>li i {
-    margin-right: 8px;
-}
-
-.navbar .header-top .contact-info .header-social>ul>li {
-    display: inline-block;
-}
-
-.navbar .header-top .contact-info .header-social>ul>li>a {
-    color: #ffffff;
-    font-size: 20px;
-    padding-left: 25px;
-}
-
-.navbar .header-top .contact-info .header-social>ul>li>a>i {
-    transition: 0.4s;
-
-}
-
-.navbar .header-top .contact-info .header-social>ul>li>a:hover i {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-}
-
-.navbar .header-top .contact-info .header-social>ul>li>a:hover {
-    color: #000080;
-}
-
 .navbar {
     padding-bottom: 20px;
     height: 15vh;
     background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
 }
-
 
 .navbar .nav-item {
     font-size: 17px;
@@ -93,15 +46,33 @@ body {
 .navbar .nav-item .active {
     color: #000080;
     font-size: 19px;
-
-
 }
 
 .navbar .nav-item .nav-link:hover {
     color: #000080;
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.navbar ul li a.icon {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.navbar ul a i {
+    padding: 7px;
+    margin-left: 5px;
+    background-color: #cfecf7;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.navbar ul a i:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 /* ==========================
@@ -114,7 +85,6 @@ body {
     height: calc(100vh - 15vh);
     padding: 70px;
     margin-top: 120px;
-
 }
 
 .animated-headlines .cd-headline span {
@@ -124,7 +94,6 @@ body {
     text-transform: capitalize;
     color: #ffffff;
 }
-
 
 .slider .left-content .hello {
     font-size: 80px;
@@ -142,7 +111,6 @@ body {
     margin: 0;
     padding: 0;
 }
- 
 
 .slider .left-content .btn {
     border: none;
@@ -157,16 +125,15 @@ body {
     z-index: 200;
 }
 
-
 /* ==========================
-   [04]. Services
+   [04]. Our Pillars
 ========================== */
-.services {
-    padding-bottom: 90px;
+.our_pillars {
+    padding: 45px;
     background: #cfecf7;
 }
 
-.services h2 {
+.our_pillars h2 {
     font-size: 30px;
     font-weight: 800;
     color: #000080;
@@ -174,7 +141,7 @@ body {
     padding: 10px;
 }
 
-.services .box {
+.our_pillars .box {
     padding: 40px;
     margin-bottom: 30px;
     background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
@@ -182,25 +149,22 @@ body {
     transition: transform .2s;
 }
 
-.services .box:hover {
+.our_pillars .box:hover {
     padding: 40px;
     margin-bottom: 30px;
     background: #F0A150;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-
 }
 
-.services .box span {
+.our_pillars .box span {
     font-size: 30px;
     color: #000080;
     padding: 8px;
 }
 
-
-
-.services .box p {
+.our_pillars .box p {
     font-size: 14px;
     color: #000080;
     font-weight: 600;
@@ -209,17 +173,14 @@ body {
     margin: 0;
 }
 
-
-
-
 /* ==========================
-   [05]. Some Facts
+   [03]. Some Facts
 ========================== */
 
 .some-facts {
-    padding: 130px 0;
-    color: #ffffff;
-    background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
+    padding-bottom: 50px;
+    color: #F0A150;
+    background: #cfecf7;
     font-weight: 700;
 }
 
@@ -250,7 +211,7 @@ body {
 /* ==========================
    [09]. Contact
 ========================== */
-
+/*
 .slider .text-center {
     font-size: 30px;
     font-weight: 800;
@@ -287,21 +248,33 @@ body {
     margin: 10px 0 20px 0;
     color: #000080;
 }
-
+*/
 
 /* ==========================
    [10]. Footer
 ========================== */
 .footer-section .footer-top {
     padding: 40px 0;
-    background: #ffffff;
+    background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
 }
 
-.footer .social-icons span {
-    color: #e0a80d;
-    padding: 0 5px;
+.footer-section .footer-bottom .social-icons span {
+    color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    background: #000080;
+    border-radius: 50%;
+    transition: 0.2s;
 }
-.footer-section h3{
+
+.footer-section .footer-bottom .social-icons span:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.footer-section h3 {
     color: #000080;
     font-weight: 600;
 }
@@ -313,8 +286,9 @@ body {
     margin: 0;
     margin-top: 15px;
 }
-.footer-section .footer-bottom{
-    background: #cfecf7;
+
+.footer-section .footer-bottom {
+    background: #ec7b25;
 }
 
 
@@ -345,41 +319,25 @@ body {
         padding: 20px;
     }
 
-    .navbar .nav-item .nav-link {
-        color: #000080;
-        transition: transform .2s;
+    .navbar-nav {
+        height: 60vh;
+        transition: all .2s ease-in;
+        background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
+        width: 100%;
+        margin-top: 8px;
+        border-radius: 10px;
     }
 
     .animated-headlines .cd-headline span {
         font-size: 30px;
     }
 
-    /* About Me */
-    .about-me {
-        padding: 130px 25px;
-    }
-
-    .about-me img {
-        margin-bottom: 30px;
-    }
-
-    .about-me .btn-1 {
-        margin-bottom: 30px;
-    }
-
     .some-facts .items h4 {
-        margin-bottom: 30px;
+        margin-bottom: px;
+        display: flex;
+        justify-content: center;
     }
 
-    .blog .box {
-        margin-bottom: 30px;
-    }
-
-    .contact .info {
-        padding: 0;
-        text-align: center;
-        margin-top: 40px;
-    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -399,26 +357,10 @@ body {
     .animated-headlines .cd-headline span {
         font-size: 30px;
     }
-
-    /* About Me */
-    .about-me img {
-        padding: 0;
-        margin-bottom: 30px;
-    }
-
     .some-facts .items h4 {
         margin-bottom: 30px;
     }
-
-    .blog .box {
-        margin-bottom: 30px;
-    }
-
-    .contact .info {
-        padding: 0;
-        text-align: center;
-        margin-top: 40px;
-    }
+ 
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -434,20 +376,4 @@ body {
     .some-facts .items h4 {
         margin-bottom: 30px;
     }
-
-    .blog .box {
-        margin-bottom: 30px;
-    }
-
-    .blog {
-        padding-bottom: 90px;
-    }
-
-    .about-me img {
-        display: none;
-    }
 }
-
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
