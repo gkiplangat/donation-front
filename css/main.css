@@ -257,7 +257,33 @@ body {
     padding: 40px 0;
     background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
 }
-
+.footer-section .footer-top h3 {
+    color: #ffffff;
+    font-size: 22px;
+}
+.footer-section .footer-top p {
+    color: #000080;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px;
+}
+.footer-section .footer-top li,i,a{
+    list-style: none;
+    padding: 5px;
+    color: #000080;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer-section .footer-top .subscribe input[type="text"]{
+    width: 75%;
+    height: 35px;
+}
+.footer-section .footer-top .subscribe input[type="button"] {
+    height: 35px;
+    background: #000080;
+    color: #ffffff;
+    font-size: 12px;
+}
 .footer-section .footer-bottom .social-icons span {
     color: #ffffff;
     padding: 5px;
@@ -266,6 +292,9 @@ body {
     background: #000080;
     border-radius: 50%;
     transition: 0.2s;
+}
+.footer-section .footer-bottom p>a{
+    color: #ffffff;
 }
 
 .footer-section .footer-bottom .social-icons span:hover {
@@ -321,11 +350,13 @@ body {
 
     .navbar-nav {
         height: 60vh;
+        position: absolute;
         transition: all .2s ease-in;
         background-image: linear-gradient(to bottom, #ec7b25, #ee881e, #ef9515, #efa30c, #eeb004, #efb312, #efb61c, #f0b924, #f2b232, #f2ac3d, #f2a647, #f0a150);
-        width: 100%;
-        margin-top: 8px;
+        width: 90%;
+        margin: 8px;
         border-radius: 10px;
+         
     }
 
     .animated-headlines .cd-headline span {
