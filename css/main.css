@@ -81,8 +81,9 @@ body {
    [02]. Slider
 ========================== */
 .slider {
-    background: url('../img/slider_bg.PNG') center center no-repeat;
+    background: url('../img/home_1.jpg') center center no-repeat;
     background-size: cover;
+     
     background-attachment: fixed;
     height: calc(100vh - 15vh);
     width: 100%;
@@ -102,26 +103,27 @@ body {
     font-size: 80px;
     font-weight: 300;
     font-family: 'Brush Script MT', cursive;
-    color: #000080;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 .slider .left-content .bpn-name {
     font-size: 35px;
-    font-weight: 300;
-    color: black;
+    font-weight: 700;
+    color: #FDFF00;
     margin: 0;
     padding: 0;
 }
 
 .slider .left-content .btn {
     border: none;
-    background: #000080;
-    border-radius: 35px;
-    padding: 12px 44px;
+    background: #FDFF00;
+    
+    padding: 16px 70px;
     font-size: 17px;
-    color: #ffffff;
+    color: #03AC13;
+    font-style: bold;
     font-weight: 500;
     margin-top: 10px;
     text-decoration: none;
